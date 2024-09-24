@@ -1,15 +1,12 @@
 package com.project.proj.model;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
 public class Department1 {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer deptcode;
 
     private String deptname;
